@@ -1,0 +1,12 @@
+{
+    "csound.playArgs": [
+        "-+rtaudio=pa_cb",
+        "-odac",
+        "--nchnls=2",
+        "--nchnls_i=2",
+        "--limiter=1",
+        "--print_version",
+        "--env:CSNOSTOP=yes"
+        // "--output=overflow.wav"
+    ]
+}
